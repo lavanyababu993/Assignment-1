@@ -1,0 +1,135 @@
+/*Authors: Lavanya
+Date:22.03.2022
+time: 7:35 pm*/
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: #292424c2;
+}
+
+.banner{
+	background: #141111bf;
+	font-size: 24px;
+
+}
+.navclass{
+	background: #08030059;
+	font-size: 24px;
+}
+
+.section1{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../img/intro-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 30px;
+	color: white;
+}
+.section1 h2{
+	font-size: 70px;
+}
+.section2{
+	background-color: #322f2fcc;
+}
+.vh-60{
+	height: 60vh;
+}
+.vh-50{
+	height: 50vh;
+}
+.section3{
+	height: 10vh;
+	background-color: #322f2fcc;
+	font-size: 24px;
+}
+
+.section4{
+	background-color: #322f2fcc;
+
+}
+.section4 h5{
+	font-size: 24px;
+}
+.section4 p{
+	font-size: 15px;
+}
+.section5{
+	padding: 50px;
+	height: 50vh;
+	margin: 100px;
+	background-color: white;
+
+}
+.section5 h5{
+	font-size: 20px;
+}
+.section5 img{
+	border: 0;
+}
+.pad{
+padding: 10px;
+}
+.vh-30{
+	height: 30vh;
+}
+
+/*.............Media Query............*/
+
+@Media screen and (Max-width: 576px){
+
+*{
+	margin: 0;
+	padding:0;
+}
+
+.navclass{
+	background: #08030059;
+	font-size: 20px;
+
+}
+
+.sec1{
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+
+.section1{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../img/intro-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 20px;
+	color: white;
+	height: 70vh;
+	text-align: center;
+	padding: auto;
+}
+.section1 h2{
+	font-size: 30px;
+}
+.section3{
+	height: auto;
+	background-color: #322f2fcc;
+	font-size: 24px;
+}
+.vh-60{
+	height: auto;
+}
+.vh-50{
+	height: auto;
+}
+.vh-30{
+	height: auto;
+}
+.section5{
+	padding: 50px;
+	height: auto;
+	margin: 100px;
+	background-color: white;
+
+}
+.medi{
+	text-align: left;
+}
